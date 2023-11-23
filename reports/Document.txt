@@ -1,0 +1,36 @@
+# importing libraries
+# defining to dataset
+# dataset about phalstine and isreal
+----------------------------------------
+# Cleaning
+1- search for any nulls in data
+2- drop column ammunition because 5253 is null from 11124
+3- convert column date_of_death from object to datetime 64[ns]
+4- repalce null with 'unknown' in 3 columns took_part_in_the_hostilities , notes , type_of_injury 
+5- dronna into all data to be cleaned
+6- add 3 columns are year ,month and month_name from column date_of_death
+7- convert column age from float to int 
+8- Describe Data 
+9- Saved Data into file processed
+----------------------------------------
+# Analsis and  Visualization
+1- find value_counts and unique of citizenship
+2- find value_counts and unique of event_location_district
+3- find value_counts and unique of event_location_region
+4- find value_counts and unique of name
+5- find value_counts of gender 
+6- find max , min and value_counts of year
+7- find value_counts and describe of name
+8- find value_counts and px(pie) of citizenship
+9- find value_counts and px(pie) of type_of_injury
+10- find value_counts and px(pie) of killed_by
+11- find value_counts , px(pie) and title='West Bank Vs. Gaza Strip Vs. Israel' of event_location_region
+12- find value_counts of took_part_in_the_hostilities , took_part_in_the_hostilities = 'Yes' with value_counts of citizenship
+13- find px(bar) value_counts of type_of_injury
+14- find px(bar) value_counts of gender
+15- find px(bar) value_counts of event_location_region
+16- group px(pie) to event_location_region and place_of_residence with nunique
+17- group px(line) to event_location_region and year with count of age
+18- find value_counts and px(funnel) of event_location_district
+19- group of name , year and date_of_death by px(scatter)
+20 - Dashboard for all plots
