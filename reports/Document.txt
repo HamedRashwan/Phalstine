@@ -31,3 +31,4 @@
 15- count place_of_residence
 16- counts , 5 top of event_location_district and (funnel) this 
 17- count ,mean,max and min to age and group (age , year) with histogram 
+Dashboard to All anlysised
